@@ -338,16 +338,27 @@ classDiagram
     class ReleasePackage {
       +Artefatos de Build
       +Scripts de Deploy
-      +Notas de Versão
+      +Notas de Versao
       +Planos de Teste
       +Plano de Rollback
     }
 
-    ReleasePackage --> "Artefatos de Build"
-    ReleasePackage --> "Scripts de Deploy"
-    ReleasePackage --> "Notas de Versão"
-    ReleasePackage --> "Planos de Teste"
-    ReleasePackage --> "Plano de Rollback"
+    class ArtefatosDeBuild {
+    }
+    class ScriptsDeDeploy {
+    }
+    class NotasDeVersao {
+    }
+    class PlanosDeTeste {
+    }
+    class PlanoDeRollback {
+    }
+
+    ReleasePackage --> ArtefatosDeBuild
+    ReleasePackage --> ScriptsDeDeploy
+    ReleasePackage --> NotasDeVersao
+    ReleasePackage --> PlanosDeTeste
+    ReleasePackage --> PlanoDeRollback
     
 ```
 
