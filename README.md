@@ -2,6 +2,29 @@
 
 ---
 
+# 📊 Tabela Comparativa — ITSM aplicado à Engenharia de Dados
+
+| **Disciplina ITSM** | **Objetivo** | **Principais Artefatos (DataOps/Engenharia de Dados)** |
+|----------------------|--------------|---------------------------------------------------------|
+| **Gerenciamento de Incidentes** | Restaurar serviços rapidamente após falha | Data Incident Report, Catálogo de Incidentes, Dashboards de Monitoramento (Airflow, Datadog, Grafana) |
+| **Gerenciamento de Problemas** | Identificar causas-raiz e evitar recorrência | Data Quality Reports, Known Error Database (KEDB), Lineage Reports, Post-Mortem Reports |
+| **Gerenciamento de Mudanças** | Controlar mudanças avaliando risco/impacto | Data Contracts (YAML/JSON), Pull Requests, Change Requests, CI/CD Logs, Versionamento de Schemas |
+| **Gerenciamento de Liberação** | Planejar, testar e implementar releases | Deploy de Pipelines (Airflow, Dataflow), Pacotes de Transformação (dbt), Release Notes |
+| **Gerenciamento de Configuração e Ativos** | Controlar ativos e relacionamentos | Data Catalog, CMDB de Dados, Glossário de Negócio, Metadados Técnicos |
+| **Gerenciamento de Nível de Serviço (SLA/OLA)** | Garantir entrega conforme acordos | SLAs de Data Pipeline, OLAs de Latência, Relatórios de Conformidade de SLA |
+| **Gerenciamento de Catálogo de Serviços** | Manter informações de serviços disponíveis | Catálogo de Dados, APIs de Dados, Documentação de Datasets |
+| **Gerenciamento de Continuidade de Serviço (ITSCM)** | Garantir continuidade em caso de desastre | Plano de Continuidade de Datalake, DRP de BigQuery/Storage, Runbooks de Recuperação |
+| **Gerenciamento de Disponibilidade** | Assegurar metas de disponibilidade | Relatórios de Disponibilidade de Pipelines, Monitoramento de SLAs, Alertas em Tempo Real |
+| **Gerenciamento de Capacidade** | Garantir suporte à demanda presente e futura | Planejamento de Capacidade de Storage/BigQuery, Relatórios de Consumo, Modelos de Demanda de Dados |
+| **Gerenciamento de Segurança da Informação** | Proteger confidencialidade, integridade e disponibilidade | Políticas de Data Governance, Logs de Auditoria, Registro de Incidentes de Segurança de Dados |
+| **Gerenciamento de Conhecimento** | Capturar e compartilhar conhecimento | Playbooks de Incidentes, Artigos de Padrões de Modelagem (Star Schema, Data Vault), Documentação de Pipelines |
+| **Gerenciamento de Requisições de Serviço** | Atender solicitações de usuários | Solicitações de Extração de Dados, Catálogo de Requisições (APIs, Queries Ad-Hoc), Tickets de Atendimento |
+| **Gerenciamento Financeiro de Serviços de TI** | Controlar custos e investimentos | Relatórios de Custos por Dataset/Pipeline, Orçamento vs Consumo (FinOps), Planilhas de Custos de BigQuery |
+| **Gerenciamento de Portfólio de Serviços** | Gerenciar ciclo de vida de todos os serviços | Portfólio de Produtos de Dados, Justificativas de Novos Datasets, Roadmap de Pipelines |
+| **Gerenciamento da Demanda** | Prever e influenciar demanda | Relatórios de Consumo de Dados, Padrões de Atividade de Negócio (PBA), Modelos de Previsão de Demanda de Dados |
+
+---
+
 # 📊 Tabela Comparativa — Disciplinas ITSM e Artefatos
 
 | **Disciplina ITSM** | **Objetivo** | **Principais Artefatos** |
