@@ -23,6 +23,38 @@
 | **Gerenciamento de Portfólio de Serviços** | Gerenciar ciclo de vida de todos os serviços | Portfólio de Produtos de Dados, Justificativas de Novos Datasets, Roadmap de Pipelines |
 | **Gerenciamento da Demanda** | Prever e influenciar demanda | Relatórios de Consumo de Dados, Padrões de Atividade de Negócio (PBA), Modelos de Previsão de Demanda de Dados |
 
+```mermaid
+mindmap
+  root((ITSM aplicado à Engenharia de Dados))
+    Gerenciamento de Incidentes
+      Data Incident Report
+      Dashboards (Airflow, Grafana, Datadog)
+    Gerenciamento de Problemas
+      Data Quality Reports
+      Lineage Reports
+      Post-Mortem Reports
+    Gerenciamento de Mudanças
+      Data Contracts
+      Pull Requests
+      CI/CD Logs
+    Gerenciamento de Configuração e Ativos
+      Data Catalog
+      Glossário de Dados
+      Metadados Técnicos
+    Gerenciamento de Continuidade e Disponibilidade
+      SLAs de Data Pipelines
+      DRP de Datalake
+      Runbooks de Recuperação
+    Gerenciamento de Segurança da Informação
+      Data Governance Policies
+      Auditorias
+      Incidentes de Segurança
+    Gerenciamento Financeiro
+      FinOps de BigQuery
+      Relatórios de Custos
+      Orçamento vs Consumo
+
+```
 ---
 
 # 📊 Tabela Comparativa — Disciplinas ITSM e Artefatos
