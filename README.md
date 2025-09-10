@@ -776,7 +776,8 @@ classDiagram
       +PBA
     }
 
-    ModeloDemanda --> "Previsão de Capacidade"
+    ModeloDemanda --> `Previsão de Capacidade`
+
 ```
 
 ---
